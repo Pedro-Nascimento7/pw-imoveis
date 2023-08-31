@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/*-Qunado uiser usar borda no conteudo taga= bolder
+-Quando quiser mecher no espaço entre a borda e o conteudo usar a tag = padding
+-Quando quiser um espaço esterno usar a tag = margi
+-Quando quiser um tracejado fora da borda é tag = outline */
+
+:root{
+    
+    --cor1:gray;
+    --cor2:#024959;
+    --cor3:#F2C335;
+    --cor4:#F2AE30;
+    --cor5:#764e29;
+    --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-android: 'Android', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom,var(--cor2),var(--cor1));
+    min-height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+header  h1{
+    color:white;
+    font-family: var(--fonte-destaque);
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
+}
+header p{
+    color:white;
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
+}
+body{
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor5));
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+   margin: auto;
+   margin-bottom: 30px;
+   padding: 20px;
+    background-color: white;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    background-color: lightgray;
+}
+
+
+ul#album-fotos {
+    width: 700px;
+    margin:auto;
+    padding: 50px;
+    overflow:hidden;
+    list-style: none;
+    }
+    
+    ul#album-fotos li {
+        float: left;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        border: 5px solid #ffffff;
+        background-color: #ffffff;
+        box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    }
+    ul#album-fotos li span {
+        opacity: 0;
+        color: #ffffff;
+        text-shadow: 1px 1px 1px #00000000;
+        background-color: rgba(0,0,0,.3);
+        font-size: 9pt;
+        line-height: 370px;
+        padding: 5px;
+    }
+    ul#album-fotos li:hover {
+        -webkit-transform: scale(1.5);
+        -webkit-transition: all .4s ease-in;
+    }
+    ul#album-fotos li:hover span{
+        opacity: 1;}
+    ul#album-fotos li#foto01 {
+        background: url('midia/rl.webp');
+        background-position: 50% 50%;
+        background-size: 400px 400px;
+    background-color: #ffffff;
+    }
+    ul#album-fotos li#foto01:hover {
+        background-position: 0% 0px;
+        background-size: 200px 200px;
+    }
+    ul#album-fotos li#foto02 {
+        background: url('midia/rl.webp') no-repeat;
+        background-position: 50% 50%;
+        background-size: 400px 400px;
+    background-color: #ffffff;
+    }
+    ul#album-fotos li#foto02:hover {
+        background-position: 0% 0px;
+        background-size: 200px 200px;
+    }
+    ul#album-fotos li#foto03 {
+        background: url('midia/rl.webp') no-repeat;
+        background-position: 50% 50%;
+        background-size: 400px 400px;
+    background-color: #ffffff;
+    }
+    ul#album-fotos li#foto03:hover {
+        background-position: 0% 0px;
+        background-size: 200px 200px;
+    }
+    ul#album-fotos li#foto04 {
+        background: url('midia/rl.webp') no-repeat;
+        background-position: 50% 50%;
+        background-size: 400px 400px;
+    background-color: #ffffff;
+    }
+    ul#album-fotos li#foto04:hover {
+        background-position: 0% 0px;
+        background-size: 200px 200px;
+    }
+    ul#album-fotos li#foto05 {
+        background: url('midia/casas-moeda.jfif') no-repeat;
+        background-position: 50% 50%;
+        background-size: 400px 400px;
+    background-color: #ffffff;
+    }
+    ul#album-fotos li#foto05:hover {
+        background-position: 0% 0px;
+        background-size: 200px 200px;
+    }
+    ul#album-fotos li#foto06 {
+        background: url('midia/rl.webp') no-repeat;
+        background-position: 50% 50%;
+        background-size: 400px 400px;
+    background-color: #ffffff;
+    }
+    ul#album-fotos li#foto06:hover {
+        background-position: 0% 0px;
+        background-size: 200px 200px;
+    }
