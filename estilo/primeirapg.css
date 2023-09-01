@@ -81,7 +81,7 @@ li {
     padding: 5px;
 }
 a > p {
-    position: sticky;
+    position: absolute;
 }
 div > img {
     position:absolute;
