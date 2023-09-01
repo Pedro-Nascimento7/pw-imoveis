@@ -79,13 +79,14 @@ div {
     min-height: 200px;
     min-width: 180px;
 }
-li > p {
-    height: 20%;
+div > p {
+    height: 15%;
     position: relative;
+    margin-bottom: 8px;
 }
 div > img {
     position:absolute;
-    bottom: 5%;
+    bottom:5%;
     left: 5%;
     margin-top: 30px;
 width: 90%;
