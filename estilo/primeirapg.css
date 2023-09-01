@@ -77,9 +77,6 @@ div {
     min-height: 200px;
     min-width: 180px;
 }
-li {
-    padding: 5px;
-}
 div > p {
     padding: 2px;
     width: 88%;
