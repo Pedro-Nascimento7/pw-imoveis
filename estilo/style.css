@@ -43,20 +43,33 @@ header p{
 body{
     background-image: linear-gradient(to bottom,var(--cor1),var(--cor5));
 }
-main{
+main {
     min-width: 300px;
     max-width: 1000px;
    margin: auto;
    margin-bottom: 30px;
    padding: 20px;
-    background-color: white;
+    background-color: lightgray;
     box-shadow:0px 0px 10px rgba(0, 0, 0, 0.418);
     border-bottom-left-radius:10px ;
     border-bottom-right-radius: 10px;
-    background-color: lightgray;
-}
-
-
+    }
+    main img {
+        width: 100%;
+    }
+    div {
+        margin: 0px -10px 30px -10px;
+        padding: 20px;
+        padding-bottom: 5%;
+        position: relative;
+    }
+    div > img {
+        position:relative;
+    top:5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    }
 ul#album-fotos {
     width: 700px;
     margin:auto;
