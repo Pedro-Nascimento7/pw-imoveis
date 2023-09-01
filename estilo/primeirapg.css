@@ -81,7 +81,8 @@ li {
     padding: 5px;
 }
 a > p {
-    position: absolute;
+    padding: 2px;
+    
 }
 div > img {
     position:absolute;
