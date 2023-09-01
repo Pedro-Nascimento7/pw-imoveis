@@ -82,7 +82,7 @@ li {
 }
 a > p {
     position: relative;
-    margin-bottom: 0px;
+    margin: 2px;
 }
 div > img {
     position:absolute;
