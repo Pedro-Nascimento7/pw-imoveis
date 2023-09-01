@@ -34,12 +34,16 @@ header  h1{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
 }
 header p{
+    position: ;
     color:white;
     font-family: var(--fonte-destaque);
     font-size: 2em;
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
+    
 }
+
+
 body{
     background-image: linear-gradient(to bottom,var(--cor1),var(--cor5));
     overflow-x: auto;
@@ -83,3 +87,4 @@ ul {
     columns: 2;
 
 }
+
