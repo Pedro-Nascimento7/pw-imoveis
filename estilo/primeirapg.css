@@ -38,7 +38,7 @@ body{
     overflow-x: auto;
 }
 main{
-    min-width: 310px;
+    min-width: 300px;
     max-width: 1000px;
    margin: auto;
    margin-bottom: 30px;
