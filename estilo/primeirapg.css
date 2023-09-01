@@ -37,15 +37,11 @@ header p{
     font-size: 1.5em;
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
-    po
-}
+    }
 body{
     background-image: linear-gradient(to bottom,var(--cor1),rgba(61, 0, 0, 0.492));
     overflow-x: auto; 
-}
-p {
-
-}
+    }
 main{
     min-width: 300px;
     max-width: 1000px;
@@ -73,6 +69,7 @@ a {
     text-decoration: none;
 }
 div {
+    position: relative;
     margin: 0px 5px 40px 0px;
     padding: 20px;
     padding-bottom: 5%;
@@ -94,7 +91,7 @@ div > img {
     margin-top: 30px;
 width: 90%;
 height: 45%;
-background-position: right center ;
+background-position:  center ;
 }
 ul {
     list-style: none;
