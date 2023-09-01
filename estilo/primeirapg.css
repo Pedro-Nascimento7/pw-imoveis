@@ -80,7 +80,7 @@ div {
 li {
     padding: 5px;
 }
-div > p {
+a > p {
     position: relative;
     margin-bottom: 0px;
 }
