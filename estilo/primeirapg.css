@@ -42,6 +42,7 @@ header p{
 }
 body{
     background-image: linear-gradient(to bottom,var(--cor1),var(--cor5));
+    overflow-x: auto;
 }
 main{
     min-width: 300px;
@@ -60,12 +61,12 @@ a {
     text-decoration: none;
 }
 div{
-    background-size:cover;
+    background-size:contain;
 background-position: right center;
 
 }
 div > img {
-background-size:cover;
+background-size:contain;
 background-position: right center;
 max-width: 450px;
 
