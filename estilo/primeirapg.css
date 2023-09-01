@@ -68,7 +68,7 @@ a {
 }
 div {
     margin: 0px;
-    padding: 2px;
+    padding: 0px;
     padding-bottom: 5%;
     position: relative;
     box-shadow: 0.5px 2px 2px rgba(76, 1, 1, 0.152);
