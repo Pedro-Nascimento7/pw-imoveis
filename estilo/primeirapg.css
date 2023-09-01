@@ -79,7 +79,7 @@ div {
 }
 div > p {
     padding: 2px;
-    width: 88%;
+    width: 100%;
 }
 div > img {
     position:absolute;
