@@ -45,6 +45,7 @@ body{
     overflow-x: auto;
 }
 main{
+    position: relative;
     min-width: 300px;
     max-width: 1000px;
    margin: auto;
@@ -69,5 +70,12 @@ div > img {
 background-size:contain;
 background-position: right center;
 max-width: 450px;
-
+position: relative;
+}
+div.img > iframe{
+position: absolute;
+top:5%;
+left: 5%;
+width: 90%;
+height: 90%;
 }
