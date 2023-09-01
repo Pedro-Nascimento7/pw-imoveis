@@ -41,8 +41,7 @@ header p{
 }
 body{
     background-image: linear-gradient(to bottom,var(--cor1),rgba(61, 0, 0, 0.492));
-    overflow-x: auto;
-  
+    overflow-x: auto; 
 }
 p {
 
