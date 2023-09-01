@@ -80,9 +80,9 @@ div {
 li {
     padding: 5px;
 }
-a > p {
+div > p {
     padding: 2px;
-    
+    width: auto;
 }
 div > img {
     position:absolute;
