@@ -77,7 +77,7 @@ div {
     min-height: 200px;
     min-width: 180px;
 }
-div > p {
+div > p, br {
     padding: 2px;
     width: 92%;
 }
