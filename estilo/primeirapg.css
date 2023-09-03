@@ -80,11 +80,12 @@ div {
 div > p {
     padding: 10px;
     margin: 5px;
+    position: relative;
 }
 div > img {
     position:absolute;
     margin: 5px;
-width: 75%;
+width: 50%;
 height: 35%;
 }
 ul {
