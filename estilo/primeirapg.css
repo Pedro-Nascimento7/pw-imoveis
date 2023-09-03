@@ -91,9 +91,9 @@ div > p {
 div > img {
     position:absolute;
     margin: 5px;
-    margin-bottom: 10px;
-    margin-left: 40px;
-width: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+width: 120px;
 height: 100px;
 
 }
