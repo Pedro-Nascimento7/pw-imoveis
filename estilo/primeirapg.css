@@ -66,6 +66,9 @@ a {
     text-decoration: none;
     margin: 2px;
 }
+br {
+    margin: 5px;
+}
 div {
     margin: 0px;
     padding: 0px;
