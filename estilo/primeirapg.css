@@ -78,7 +78,6 @@ div {
 }
 div > p {
     padding: 10px;
-    width: 92%;
 }
 div > img {
     position:absolute;
