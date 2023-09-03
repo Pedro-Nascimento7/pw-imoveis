@@ -77,12 +77,13 @@ div {
     min-width: 180px;
 }
 div > p {
-    padding: 2px;
+    padding: 10px;
     width: 92%;
 }
 div > img {
     position:absolute;
     padding: 2px;
+    padding-left: 10px;
     bottom:5%;
     right: 2%;
     left: 2%;
