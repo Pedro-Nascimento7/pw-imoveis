@@ -70,6 +70,10 @@ a {
     position: relative;
     padding: 10px;
     margin-bottom: 20px;
+    max-height: 800px;
+    max-width: 500px;
+    min-height: 250px;
+    min-width: 180px;
 }
 br {
     margin: 5px;
@@ -81,7 +85,6 @@ div {
     max-width: 500px;
     min-height: 250px;
     min-width: 180px;
-    padding: 10px;
 }
 div > p {
     padding: 10px;
@@ -91,7 +94,6 @@ div > p {
 div > img {
     position:absolute;
     margin: 5px;
-    margin-bottom: 20px;
     margin-left: 20px;
 width: 120px;
 height: 100px;
