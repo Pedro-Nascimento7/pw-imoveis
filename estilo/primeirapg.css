@@ -85,8 +85,10 @@ div > p {
 div > img {
     position:absolute;
     margin: 5px;
-width: 50%;
-height: 35%;
+    margin-left: 50px;
+width: 100px;
+height: 100px;
+
 }
 ul {
     list-style: none;
