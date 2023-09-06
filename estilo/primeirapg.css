@@ -60,11 +60,6 @@ main p{
     font-weight: normal;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
 }
-li {
-    position: relative;
-   margin: 10px;
-   padding: 10px;
-}
 a {
     color: black;
     text-decoration: none;
@@ -81,12 +76,12 @@ br {
 }
 div {
     display: inline-block;
-    border: 1px solid black; 
+    border: 1px solid rgba(0, 0, 0, 0.482); 
     border-radius: 10px;
     background-color: lightgray;  
     width: 300px;
     height: 300px;
-    margin: 10px;
+    margin: 5px;
 
 }
 div > p {
@@ -102,11 +97,5 @@ left: 50%;
 top: 50%;
 
 transform: translate(-50%, -50%);
-}
-ul {
-    list-style: none;
-    columns: 2;
-    position: relative;
-
 }
 
