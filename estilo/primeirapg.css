@@ -76,10 +76,10 @@ br {
 }
 div {
     display: inline-block;
-    border: 1px solid rgba(0, 0, 0, 0.482); 
-    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.234); 
+    border-radius: 8px;
     background-color: lightgray;  
-    width: 300px;
+    width: 210px;
     height: 300px;
     margin: 5px;
 
@@ -91,7 +91,7 @@ div > p {
 }
 div > img {
 position: absolute;
-width: 250px;
+width: 200px;
 height: 150px;
 left: 50%;
 top: 50%;
