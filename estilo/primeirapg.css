@@ -81,6 +81,7 @@ br {
 div {
     position: relative;
     box-shadow: 0.5px 2px 2px rgba(76, 1, 1, 0.152);
+    padding: 20px;
     max-height: 800px;
     max-width: 500px;
     min-height: 250px;
@@ -93,7 +94,7 @@ div > p {
 }
 div > img {
     position:absolute;
-    margin: 5px;
+    margin: -10px;
     margin-left: 20px;
 width: 120px;
 height: 100px;
