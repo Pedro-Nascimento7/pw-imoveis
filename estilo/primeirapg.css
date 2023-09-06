@@ -85,8 +85,7 @@ div {
     padding: 20px;
     max-height: 800px;
     max-width: 500px;
-    min-height: 250px;
-    min-width: 180px;
+
 }
 div > p {
     padding: 10px;
@@ -94,8 +93,7 @@ div > p {
     height: 50%;
 }
 div > img {
-    position:absolute;
-    margin: -10px;
+    position: relative;
     width: 80%;
     height: 30%;
 
