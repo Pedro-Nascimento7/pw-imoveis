@@ -79,7 +79,7 @@ div {
     display: inline-block;
     border: 1px solid rgba(0, 0, 0, 0.234); 
     border-radius: 8px;
-    background-color: lightgray;  
+    background-color: rgba(72, 0, 0, 0.141);  
     width: 210px;
     height: 300px;
     margin: 5px;
