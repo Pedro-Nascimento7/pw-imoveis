@@ -86,6 +86,7 @@ div {
     background-color: lightgray;  
     width: 300px;
     height: 300px;
+    margin: 10px;
 
 }
 div > p {
@@ -94,10 +95,11 @@ div > p {
     height: 50%;
 }
 div > img {
-    position: relative;
-    width: 90%;
-    height: 50%;
-
+position: absolute;
+width: 250px;
+height: 150px;
+left: 13%;
+top: -50px;
 }
 ul {
     list-style: none;
