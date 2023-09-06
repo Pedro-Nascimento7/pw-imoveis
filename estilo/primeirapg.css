@@ -37,6 +37,7 @@ header p{
     font-size: 1.5em;
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
+    margin-bottom: 10px;
     }
 body{
     background-image: linear-gradient(to bottom,var(--cor1),rgba(61, 0, 0, 0.492));
