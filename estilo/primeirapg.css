@@ -62,7 +62,8 @@ main p{
 }
 li {
     position: relative;
-    margin: 10px;
+   margin: 10px;
+   padding: 10px;
 }
 a {
     color: black;
@@ -90,13 +91,13 @@ div {
 div > p {
     padding: 10px;
     position: relative;
+    height: 50%;
 }
 div > img {
     position:absolute;
     margin: -10px;
-    margin-left: 20px;
-width: 120px;
-height: 100px;
+    width: 80%;
+    height: 30%;
 
 }
 ul {
