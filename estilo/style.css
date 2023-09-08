@@ -64,6 +64,7 @@ main p{
 div {
     position: relative;
     height: 400px;  
+    padding-bottom: 1px;
 }
 div > img {
 width: 100%;
