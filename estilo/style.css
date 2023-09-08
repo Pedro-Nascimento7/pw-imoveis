@@ -76,6 +76,8 @@ height: 69%;
 nav {
     background-color: black;
     text-align: center;
+    padding: 5px;
+    margin: 5px;
 }
 li{
     display: inline-block;
