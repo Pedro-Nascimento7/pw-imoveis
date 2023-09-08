@@ -69,7 +69,7 @@ div {
 div > img {
 width: 100%;
  position: absolute;
-height: 69%;
+height: 78%;
 
 }
 
@@ -85,7 +85,10 @@ li{
     height: 60px;
 }
 li > img {
-    padding-top: 2px;
+    padding: 2px;
     width: 60px;
     height: 60px;
+}
+li:hover {
+    -webkit-transform: scale(1.3);
 }
