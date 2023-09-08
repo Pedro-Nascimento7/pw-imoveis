@@ -10,7 +10,7 @@
     --cor2:#024959;
     --cor3:#F2C335;
     --cor4:#F2AE30;
-    --cor5:#764e29;
+    --cor5:#402001;
     --fonte-padrao:Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
     --fonte-android: 'Android', cursive;
@@ -43,7 +43,7 @@ header p{
         text-decoration: none;
     }
 body{
-    background-image: linear-gradient(to bottom,var(--cor1),rgba(61, 0, 0, 0.492));
+    background-image: linear-gradient(to bottom,rgb(44, 38, 38),rgba(61, 15, 0, 0.492));
     overflow-x: auto; 
     }
 main{
@@ -51,8 +51,8 @@ main{
     max-width: 1000px;
    margin: auto;
     padding-bottom: 20px;
-    background-color: rgba(211, 211, 211, 0.281);
-    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.418);
+    background-image: linear-gradient(to bottom,#816962,rgba(61, 15, 0, 0.492));
+    box-shadow:0px 0px 10px rgba(48, 0, 0, 0.418);
     border-bottom-left-radius:5px ;
     border-bottom-right-radius: 5px;
 }
@@ -61,6 +61,7 @@ main p{
     text-indent: 16px;
     font-weight: normal;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
+    font-size: 20px;
 }
 div {
     position: relative;
@@ -72,6 +73,7 @@ div > p {
     margin-left: 10px;
     margin-bottom: 5px;
     padding-top: 10px;
+
 }
 div > img {
 width: 100%;
