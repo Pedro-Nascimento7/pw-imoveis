@@ -71,9 +71,7 @@ height: 400px;
 
 }
 
-ul {
-    background-color: black;
-}
+
 li{
     display: inline-block;
     height: 100px;
