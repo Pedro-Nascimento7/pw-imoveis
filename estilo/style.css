@@ -74,12 +74,14 @@ height: 300px;
 
 nav {
     background-color: black;
+    text-align: center;
 }
 li{
     display: inline-block;
     height: 60px;
 }
 li > img {
+    padding-top: 2px;
     width: 60px;
     height: 60px;
 }
