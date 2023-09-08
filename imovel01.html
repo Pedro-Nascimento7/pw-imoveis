@@ -6,6 +6,12 @@
     <title>PW-imoveis</title>
     <link rel="stylesheet" href="estilo/style.css">
 </head>
+<script>
+    function mudaFoto (foto)
+    {
+        document.getElementById("imagem-principal").src = foto;
+    }
+</script>
 <body>
     <header>
         <h1>Imóveis em um preço justo</h1>
@@ -13,13 +19,14 @@
     </header>
     <main>
         <div>
-        <p>descrição</p>
-        <br>
-        <img src="midia/rl.webp" alt="imagenm do produto"></div>
+            <p>descrição</p>
+         <br>
+            <img id="imagem-principal" src="midia/rl.webp">
+        </div>
         <section>
-            <img src="midia/casa com moedas.jpg" alt="">
-            <img src="midia/acordo de mãos.jpg" alt="">
-            <img src="midia/rl.webp" alt="">
+            <img src="midia/casa com moedas.jpg" onclick="mudaFoto('midia/casa com moedas.jpg')">
+            <img src="midia/acordo de mãos.jpg"  onclick="mudaFoto('midia/acordo de mãos.jpg')">
+            <img src="midia/rl.webp" onclick="mudaFoto('midia/rl.webp')">
         </section>
     </main>
 </body>
