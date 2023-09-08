@@ -62,24 +62,23 @@ main p{
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
 }
 div {
-    width: 500px;
     height: 500px;
     position: relative;
 }
 div > img {
  position: absolute;
-width: 400px;
 height: 400px;
 }
-section {
-    background-color:black;
-    height: 100px;
-    margin: center;
+ul {
+    background-color: black;
 }
-section > img {
+li{
+    display: inline-block;
+    height: 100px;
+}
+li > img {
     margin-left: 2px;
     margin-right: 2px;
     width: 100px;
     height: 100px;
-    
 }
