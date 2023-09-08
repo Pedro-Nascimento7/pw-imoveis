@@ -58,7 +58,7 @@ main{
 }
 main p{
     text-align: justify;
-    text-indent: 16px;
+    text-indent: 8px;
     font-weight: normal;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.268);
     font-size: 20px;
