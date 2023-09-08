@@ -39,6 +39,9 @@ header p{
     font-weight: normal;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.268);
     }
+    a {
+        text-decoration: none;
+    }
 body{
     background-image: linear-gradient(to bottom,var(--cor1),rgba(61, 0, 0, 0.492));
     overflow-x: auto; 
