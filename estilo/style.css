@@ -46,7 +46,7 @@ header p{
         text-decoration: none;
     }
 body{
-    background-image: linear-gradient(to bottom,rgb(44, 38, 38),rgba(65, 16, 0, 0.492));
+    background-image: linear-gradient(to bottom,rgb(122 127 131),rgb(61 16 2 / 49%));
     overflow-x: auto; 
     }
 main{
