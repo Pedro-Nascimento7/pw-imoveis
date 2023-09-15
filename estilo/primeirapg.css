@@ -45,7 +45,7 @@ header p{
     margin-bottom: 10px;
     }
 body{
-    background-image: linear-gradient(to bottom,rgb(44, 38, 38),rgba(61, 15, 0, 0.492));
+     background-image: linear-gradient(to bottom,#034256,rgba(61, 15, 0, 0.959));
     overflow-x: auto; 
     }
     main{
@@ -85,7 +85,7 @@ div {
     display: inline-block;
     border: 1px solid rgba(0, 0, 0, 0.234); 
     border-radius: 8px;
-    background-color: #f5faff21;  
+    background-color: rgba(255, 255, 255, 0.582);  
     width: 300px;
     height: 300px;
     margin: 2px;
@@ -95,11 +95,12 @@ div > p {
     padding: 10px;
     position: relative;
     height: 50%;
+    font-size: 18px;
 }
 div > img {
 position: absolute;
-width: 250px;
-height: 150px;
+width: 280px;
+height: 180px;
 left: 50%;
 top: 50%;
 
